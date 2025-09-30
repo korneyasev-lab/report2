@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/сборка
+.idea/
+.vscode/
+dist/
+build/
+
+# Данные/артефакты
+reports.db
+отчеты/
+*.xlsx
+!шаблоны/*.xlsx   # оставить только шаблоны
+forms/*           # если формы пользовательские
+
+# OS
+.DS_Store
+Thumbs.db
